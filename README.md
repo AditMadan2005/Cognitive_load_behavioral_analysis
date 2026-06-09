@@ -4,7 +4,7 @@
 
 This project explores cognitive load through behavioral data collected from computer interactions. Using keystroke dynamics, mouse movement data, inactivity records, and user-reported stress labels, the project investigates how user behavior changes during computer usage.
 
-The analysis focuses on feature extraction, exploratory data analysis (EDA), visualization, and behavioral interpretation using Python.
+The analysis focuses on feature engineering, exploratory data analysis (EDA), visualization, and behavioral interpretation using Python.
 
 ---
 
@@ -16,16 +16,23 @@ The goal of this project is to examine whether common computer interaction patte
 
 ## Dataset
 
-**Source:** Kaggle – Stress Detection by Keystroke App Mouse Changes
+Dataset used in this project:
+
+**Stress Detection by Keystroke, App & Mouse Changes**
+
+Source:
+https://www.kaggle.com/datasets/chaminduweerasinghe/stress-detection-by-keystrokeapp-mouse-changes
 
 The dataset contains behavioral logs from two users, including:
 
-* Keystroke events
-* Mouse movement records
-* Mouse speed measurements
+* Keystroke activity
+* Mouse movement data
+* Mouse speed records
+* Application usage logs
 * Inactivity periods
-* User condition / stress labels
-* Active application information
+* Self-reported stress and condition labels
+
+The original dataset is publicly available on Kaggle and is therefore not included directly in this repository.
 
 ---
 
@@ -83,9 +90,8 @@ The project includes visualizations for:
 
 ```text
 code_final.py
-Research_Draft.pdf
-Dataset/
-EDA Plots/
+Working_Paper.pdf
+EDA Plots.zip
 README.md
 ```
 
@@ -93,9 +99,9 @@ README.md
 
 ## Current Status
 
-This is a research-in-progress project.
+Research in Progress
 
-The included research paper is a working draft and has not been formally published or peer-reviewed. The project currently focuses on behavioral analysis and feature engineering.
+The included paper is a working draft and has not been formally published or peer-reviewed. The project currently focuses on behavioral analysis, feature engineering, and exploratory data analysis.
 
 ---
 
